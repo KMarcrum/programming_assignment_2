@@ -2,6 +2,6 @@
 Programming Assignment 2
 
 ## Authors
-Jimmy Nguyen 
-Kyle Marcrum 
-Becca Siciliano 
+Jimmy Nguyen\
+Kyle Marcrum\
+Becca Siciliano\
