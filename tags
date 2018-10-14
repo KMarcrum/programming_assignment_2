@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLIENT	makefile	/^CLIENT 	:= client$/;"	m
+JCC	makefile	/^JCC 	:= javac$/;"	m
+JFLAGS	makefile	/^JFLAGS 	:= -g$/;"	m
+SERVER	makefile	/^SERVER 	:= server$/;"	m
+client	client.java	/^public class client {$/;"	c
+data	packet.java	/^	private String data;   \/\/ should be 0 for ACK packets  $/;"	f	class:packet	file:
+getData	packet.java	/^	public String getData(){$/;"	m	class:packet
+getLength	packet.java	/^	public int getLength(){$/;"	m	class:packet
+getSeqNum	packet.java	/^	public int getSeqNum(){$/;"	m	class:packet
+getType	packet.java	/^	public int getType(){$/;"	m	class:packet
+length	packet.java	/^	private int length;    \/\/ number of characters carried in data field $/;"	f	class:packet	file:
+main	client.java	/^    public static void main(String[] args)$/;"	m	class:client
+main	server.java	/^    public static void main(String[] args)$/;"	m	class:server
+packet	packet.java	/^	public packet(int t, int s, int l, String d){$/;"	m	class:packet
+packet	packet.java	/^public class packet implements$/;"	c
+printContents	packet.java	/^	public void printContents(){$/;"	m	class:packet
+seqnum	packet.java	/^	private int seqnum;    \/\/ sequence number$/;"	f	class:packet	file:
+server	server.java	/^public class server {$/;"	c
+type	packet.java	/^    private int type;      \/\/ 0 if an ACK, 1 if a data packet$/;"	f	class:packet	file:
+usage	client.java	/^    public static void usage()$/;"	m	class:client
+usage	server.java	/^    public static void usage()$/;"	m	class:server
