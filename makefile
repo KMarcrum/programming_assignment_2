@@ -15,4 +15,4 @@ clean:
 	$(RM) *.class
 
 zip:
-	@zip jtn136-kyle_netid-becca_netid-PA2.zip *.java makefile
+	@zip jtn136-tkm129-becca_netid-PA2.zip *.java makefile
